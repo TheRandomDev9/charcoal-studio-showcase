@@ -1,0 +1,31 @@
+{
+  "collection": "Teaching-first v2",
+  "sourceBranch": "codex/teaching-first-full-plan",
+  "sourceCommit": "7f828c4",
+  "films": [
+    {
+      "slug": "react-state",
+      "title": "How React State Reaches the Page",
+      "duration": "2:15",
+      "promise": "Follow one click from a queued state update to the pixels the viewer finally sees.",
+      "video": "videos/teaching-first-v2/react-state.mp4",
+      "poster": "posters/teaching-first-v2/react-state.jpg"
+    },
+    {
+      "slug": "tokenizer",
+      "title": "How a Tokenizer Sees Your Words",
+      "duration": "2:24",
+      "promise": "Turn a sentence into model-sized pieces and see why the boundaries rarely match whole words.",
+      "video": "videos/teaching-first-v2/tokenizer.mp4",
+      "poster": "posters/teaching-first-v2/tokenizer.jpg"
+    },
+    {
+      "slug": "mcp",
+      "title": "What MCP Actually Connects",
+      "duration": "1:59",
+      "promise": "Trace one useful request through the shared protocol between an AI application and a tool server.",
+      "video": "videos/teaching-first-v2/mcp.mp4",
+      "poster": "posters/teaching-first-v2/mcp.jpg"
+    }
+  ]
+}

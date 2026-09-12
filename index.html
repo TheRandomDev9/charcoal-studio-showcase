@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#111310" />
+    <meta name="description" content="Mobile review gallery for Charcoal Studio teaching-first video renders." />
+    <title>Charcoal Studio — Screening Room</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,650&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="masthead">
+      <a class="wordmark" href="#top" aria-label="Charcoal Studio home">
+        <span class="mark" aria-hidden="true">C</span>
+        <span>CHARCOAL<br />STUDIO</span>
+      </a>
+      <div class="status"><span></span> Review room online</div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Teaching-first engine · review build 02</p>
+        <h1>Ideas should feel<br /><em>obvious</em> by the end.</h1>
+        <p class="lede">Three technical explanations, rendered for a phone. Listen for the story, watch whether each visual earns its place, and judge the final takeaway.</p>
+        <a class="jump" href="#screenings">Watch the screenings <span>↓</span></a>
+      </section>
+
+      <section class="principles" aria-label="Review criteria">
+        <div><b>01</b><span>One idea<br />at a time</span></div>
+        <div><b>02</b><span>Visuals follow<br />the explanation</span></div>
+        <div><b>03</b><span>Finish with<br />a usable rule</span></div>
+      </section>
+
+      <section class="screenings" id="screenings">
+        <header class="section-head">
+          <div>
+            <p class="eyebrow">Now screening</p>
+            <h2>Teaching-first v2</h2>
+          </div>
+          <p>3 films · 6m 38s total</p>
+        </header>
+        <div class="film-grid" id="film-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Charcoal Studio</span>
+      <span>Built to explain.</span>
+      <a href="https://github.com/TheRandomDev9/charcoal-studio-showcase">Source ↗</a>
+    </footer>
+
+    <template id="film-template">
+      <article class="film-card">
+        <div class="player-shell">
+          <video controls playsinline preload="metadata"></video>
+          <span class="film-number"></span>
+        </div>
+        <div class="film-copy">
+          <div class="film-meta"><span class="duration"></span><span class="format">SHORT · 9:16</span></div>
+          <h3></h3>
+          <p class="promise"></p>
+          <a class="download" download>Download MP4 <span>↓</span></a>
+        </div>
+      </article>
+    </template>
+
+    <script src="assets/site.js" defer></script>
+  </body>
+</html>
