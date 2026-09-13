@@ -1,22 +1,44 @@
 {
-  "collection": "Direction-aware connectors",
+  "collection": "Shopping app \u2014 visible live state",
   "films": [
     {
       "slug": "api-gateway",
-      "title": "API Gateway: One Entrance \u2014 connector upgrade",
+      "title": "API Gateway: One Entrance \u2014 live state fix",
       "duration": "2:34",
       "durationSeconds": 154.066667,
-      "promise": "Premium visuals with direction-aware connectors: outward requests, returning responses and two-way links where declared. Same script and narration. Review preview; full release review remains pending.",
-      "video": "videos/connector-upgrade/api-gateway.mp4",
-      "poster": "posters/connector-upgrade/api-gateway.jpg",
-      "transcript": "transcripts/connector-upgrade/api-gateway.txt",
+      "promise": "The Shopping app now retains its actual exchange status before, during and after requests. Same script and narration, with the premium visuals and connector fixes. Review preview; full release review remains pending.",
+      "video": "videos/live-status-fix/api-gateway.mp4",
+      "poster": "posters/live-status-fix/api-gateway.jpg",
+      "transcript": "transcripts/live-status-fix/api-gateway.txt",
       "status": "preview",
       "releaseReady": false,
-      "sourceCommit": "5fcb175",
-      "sha256": "5a688933c93efbe988f219046d148bb177fde31e0d09a3a454abfd939759e994"
+      "sourceCommit": "eb4e8b7",
+      "sha256": "aa28fd050be527559397718a68609f737c1796ef55989d782a3a0b5dfa294d0e"
     }
   ],
   "collections": [
+    {
+      "id": "live-status-fix",
+      "title": "Shopping app \u2014 visible live state",
+      "description": "Persistent exchange status inside the diagram boxes. Same narration as the previous previews.",
+      "sourceCommit": "eb4e8b7",
+      "films": [
+        {
+          "slug": "api-gateway",
+          "title": "API Gateway: One Entrance \u2014 live state fix",
+          "duration": "2:34",
+          "durationSeconds": 154.066667,
+          "promise": "The Shopping app now retains its actual exchange status before, during and after requests. Same script and narration, with the premium visuals and connector fixes. Review preview; full release review remains pending.",
+          "video": "videos/live-status-fix/api-gateway.mp4",
+          "poster": "posters/live-status-fix/api-gateway.jpg",
+          "transcript": "transcripts/live-status-fix/api-gateway.txt",
+          "status": "preview",
+          "releaseReady": false,
+          "sourceCommit": "eb4e8b7",
+          "sha256": "aa28fd050be527559397718a68609f737c1796ef55989d782a3a0b5dfa294d0e"
+        }
+      ]
+    },
     {
       "id": "connector-upgrade",
       "title": "Direction-aware connectors",
