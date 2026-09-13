@@ -1,22 +1,44 @@
 {
-  "collection": "Shopping app \u2014 request wording corrected",
+  "collection": "A proper order page",
   "films": [
     {
       "slug": "api-gateway",
-      "title": "API Gateway: One Entrance \u2014 request wording fix",
+      "title": "API Gateway: One Entrance \u2014 redesigned order page",
       "duration": "2:34",
       "durationSeconds": 154.066667,
-      "promise": "The order request explicitly says live delivery status. Same narration, with persistent exchange status, premium visuals and connector fixes. Review preview; full release review remains pending.",
-      "video": "videos/request-copy-fix/api-gateway.mp4",
-      "poster": "posters/request-copy-fix/api-gateway.jpg",
-      "transcript": "transcripts/request-copy-fix/api-gateway.txt",
+      "promise": "A real order summary replaces the prose form. Order details and live delivery status populate from their respective responses and remain visible in the recap. Same narration. Review preview; full release review remains pending.",
+      "video": "videos/product-record/api-gateway.mp4",
+      "poster": "posters/product-record/api-gateway.jpg",
+      "transcript": "transcripts/product-record/api-gateway.txt",
       "status": "preview",
       "releaseReady": false,
-      "sourceCommit": "eb4e8b7",
-      "sha256": "c413d14a5f02420fafda4f58f07ac23ec6a296f11f761abbde6ed3595cf18b56"
+      "sourceCommit": "8a3d4dc",
+      "sha256": "fb4ace01c085e020b2383e8e903cba1ca09190834fcf2063fa0ee91d45ca0d9c"
     }
   ],
   "collections": [
+    {
+      "id": "product-record",
+      "title": "A proper order page",
+      "description": "Read-only product records with response-driven fields. Shared engine and authoring improvements; same API gateway narration.",
+      "sourceCommit": "8a3d4dc",
+      "films": [
+        {
+          "slug": "api-gateway",
+          "title": "API Gateway: One Entrance \u2014 redesigned order page",
+          "duration": "2:34",
+          "durationSeconds": 154.066667,
+          "promise": "A real order summary replaces the prose form. Order details and live delivery status populate from their respective responses and remain visible in the recap. Same narration. Review preview; full release review remains pending.",
+          "video": "videos/product-record/api-gateway.mp4",
+          "poster": "posters/product-record/api-gateway.jpg",
+          "transcript": "transcripts/product-record/api-gateway.txt",
+          "status": "preview",
+          "releaseReady": false,
+          "sourceCommit": "8a3d4dc",
+          "sha256": "fb4ace01c085e020b2383e8e903cba1ca09190834fcf2063fa0ee91d45ca0d9c"
+        }
+      ]
+    },
     {
       "id": "request-copy-fix",
       "title": "Shopping app \u2014 request wording corrected",
