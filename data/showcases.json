@@ -1,22 +1,46 @@
 {
-  "collection": "A proper order page",
+  "collection": "API Gateway \u2014 pronunciation corrected",
   "films": [
     {
       "slug": "api-gateway",
-      "title": "API Gateway: One Entrance \u2014 redesigned order page",
-      "duration": "2:34",
-      "durationSeconds": 154.066667,
-      "promise": "A real order summary replaces the prose form. Order details and live delivery status populate from their respective responses and remain visible in the recap. Same narration. Review preview; full release review remains pending.",
-      "video": "videos/product-record/api-gateway.mp4",
-      "poster": "posters/product-record/api-gateway.jpg",
-      "transcript": "transcripts/product-record/api-gateway.txt",
+      "title": "API Gateway: One Entrance",
+      "durationSeconds": 153.866667,
+      "duration": "2:33",
+      "video": "videos/four-topics-review/api-gateway.mp4",
+      "poster": "posters/four-topics-review/api-gateway.jpg",
+      "transcript": "transcripts/four-topics-review/api-gateway.txt",
+      "job": "f484ba8d-dc0d-4d20-b275-c12021da4894",
       "status": "preview",
       "releaseReady": false,
-      "sourceCommit": "8a3d4dc",
-      "sha256": "fb4ace01c085e020b2383e8e903cba1ca09190834fcf2063fa0ee91d45ca0d9c"
+      "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+      "sourceRevision": "04a4e38b676fbada1f9cbd3c78d4b111660d9b3beb31d14751ab5d0580e1ed99",
+      "sha256": "71d90cd2dfd0468d07105cd7abc260ba67d8881d4b76cd15914639d413136eef"
     }
   ],
   "collections": [
+    {
+      "id": "api-pronunciation",
+      "title": "API Gateway \u2014 pronunciation corrected",
+      "description": "API is articulated as A\u2013P\u2013I. Regenerated narration, verified audio, and all automated teaching and media checks passed. Awaiting owner review.",
+      "sourceCommit": "7248c0c",
+      "films": [
+        {
+          "slug": "api-gateway",
+          "title": "API Gateway: One Entrance",
+          "durationSeconds": 153.866667,
+          "duration": "2:33",
+          "video": "videos/four-topics-review/api-gateway.mp4",
+          "poster": "posters/four-topics-review/api-gateway.jpg",
+          "transcript": "transcripts/four-topics-review/api-gateway.txt",
+          "job": "f484ba8d-dc0d-4d20-b275-c12021da4894",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+          "sourceRevision": "04a4e38b676fbada1f9cbd3c78d4b111660d9b3beb31d14751ab5d0580e1ed99",
+          "sha256": "71d90cd2dfd0468d07105cd7abc260ba67d8881d4b76cd15914639d413136eef"
+        }
+      ]
+    },
     {
       "id": "product-record",
       "title": "A proper order page",
