@@ -1,6 +1,51 @@
 {
-  "collection": "API Gateway \u2014 pronunciation corrected",
+  "collection": "Four topics \u2014 finished review batch",
   "films": [
+    {
+      "slug": "tokenizer",
+      "title": "How Tokenization Works",
+      "durationSeconds": 153.5,
+      "duration": "2:33",
+      "video": "videos/four-topics-review/tokenizer.mp4",
+      "poster": "posters/four-topics-review/tokenizer.jpg",
+      "transcript": "transcripts/four-topics-review/tokenizer.txt",
+      "job": "6704b3d4-5f92-40f0-a2f0-ac6c1472a466",
+      "status": "preview",
+      "releaseReady": false,
+      "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+      "sourceRevision": "1f0d250dc5737c919feef7f2e6bac1164d9fb20c735475d63488192c14e7429e",
+      "sha256": "b62b1d3216d6f07d1be023eed8ecbc0e53b13699b83cfacc81377d755a9f7567"
+    },
+    {
+      "slug": "mcp",
+      "title": "MCP Makes Connections Reusable",
+      "durationSeconds": 163.3,
+      "duration": "2:43",
+      "video": "videos/four-topics-review/mcp.mp4",
+      "poster": "posters/four-topics-review/mcp.jpg",
+      "transcript": "transcripts/four-topics-review/mcp.txt",
+      "job": "4f5c1185-dcf6-43f2-9127-973cab89be5a",
+      "status": "preview",
+      "releaseReady": false,
+      "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+      "sourceRevision": "bda0fabfcb0f94621fca3d7b655f131f7d341055716f7367031e9db6b720c722",
+      "sha256": "103801ca5b0db3f2a6f695d56928c2b465889f5f0a78d46faa5aff958430f2a1"
+    },
+    {
+      "slug": "react-state",
+      "title": "React State to Screen",
+      "durationSeconds": 160.2,
+      "duration": "2:40",
+      "video": "videos/four-topics-review/react-state.mp4",
+      "poster": "posters/four-topics-review/react-state.jpg",
+      "transcript": "transcripts/four-topics-review/react-state.txt",
+      "job": "2dc519ea-16ce-499f-a0e9-6f3204fd1971",
+      "status": "preview",
+      "releaseReady": false,
+      "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+      "sourceRevision": "60f1d4144b543a0e4f4f11da3bec7b80253327617e0872ab2203cc0c19b7f662",
+      "sha256": "63e6660d1034bd04119eb87a5f0a81d0c52f328c62e84be38f6ffb7eac71c18f"
+    },
     {
       "slug": "api-gateway",
       "title": "API Gateway: One Entrance",
@@ -18,6 +63,73 @@
     }
   ],
   "collections": [
+    {
+      "id": "four-topics-review",
+      "title": "Four topics \u2014 finished review batch",
+      "description": "Tokenizer, MCP, React state, and API gateway. All automated teaching, visual, pronunciation and media checks passed. Ready for your editorial review; not approved for social publication.",
+      "films": [
+        {
+          "slug": "tokenizer",
+          "title": "How Tokenization Works",
+          "durationSeconds": 153.5,
+          "duration": "2:33",
+          "video": "videos/four-topics-review/tokenizer.mp4",
+          "poster": "posters/four-topics-review/tokenizer.jpg",
+          "transcript": "transcripts/four-topics-review/tokenizer.txt",
+          "job": "6704b3d4-5f92-40f0-a2f0-ac6c1472a466",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+          "sourceRevision": "1f0d250dc5737c919feef7f2e6bac1164d9fb20c735475d63488192c14e7429e",
+          "sha256": "b62b1d3216d6f07d1be023eed8ecbc0e53b13699b83cfacc81377d755a9f7567"
+        },
+        {
+          "slug": "mcp",
+          "title": "MCP Makes Connections Reusable",
+          "durationSeconds": 163.3,
+          "duration": "2:43",
+          "video": "videos/four-topics-review/mcp.mp4",
+          "poster": "posters/four-topics-review/mcp.jpg",
+          "transcript": "transcripts/four-topics-review/mcp.txt",
+          "job": "4f5c1185-dcf6-43f2-9127-973cab89be5a",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+          "sourceRevision": "bda0fabfcb0f94621fca3d7b655f131f7d341055716f7367031e9db6b720c722",
+          "sha256": "103801ca5b0db3f2a6f695d56928c2b465889f5f0a78d46faa5aff958430f2a1"
+        },
+        {
+          "slug": "react-state",
+          "title": "React State to Screen",
+          "durationSeconds": 160.2,
+          "duration": "2:40",
+          "video": "videos/four-topics-review/react-state.mp4",
+          "poster": "posters/four-topics-review/react-state.jpg",
+          "transcript": "transcripts/four-topics-review/react-state.txt",
+          "job": "2dc519ea-16ce-499f-a0e9-6f3204fd1971",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+          "sourceRevision": "60f1d4144b543a0e4f4f11da3bec7b80253327617e0872ab2203cc0c19b7f662",
+          "sha256": "63e6660d1034bd04119eb87a5f0a81d0c52f328c62e84be38f6ffb7eac71c18f"
+        },
+        {
+          "slug": "api-gateway",
+          "title": "API Gateway: One Entrance",
+          "durationSeconds": 153.866667,
+          "duration": "2:33",
+          "video": "videos/four-topics-review/api-gateway.mp4",
+          "poster": "posters/four-topics-review/api-gateway.jpg",
+          "transcript": "transcripts/four-topics-review/api-gateway.txt",
+          "job": "f484ba8d-dc0d-4d20-b275-c12021da4894",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Finished Studio build. All automated teaching, visual and media checks passed; awaiting your editorial review.",
+          "sourceRevision": "04a4e38b676fbada1f9cbd3c78d4b111660d9b3beb31d14751ab5d0580e1ed99",
+          "sha256": "71d90cd2dfd0468d07105cd7abc260ba67d8881d4b76cd15914639d413136eef"
+        }
+      ]
+    },
     {
       "id": "api-pronunciation",
       "title": "API Gateway \u2014 pronunciation corrected",

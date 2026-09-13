@@ -1,0 +1,30 @@
+How Tokenization Works
+All automated checks passed. Owner editorial review pending.
+
+Spaces fall short
+
+A model does not receive a sentence as readable text.
+It needs a sequence of numbers tied to pieces in the tokenizer’s vocabulary.
+Consider “Héllò, annoyingly!” How can punctuation, an accent, and a possibly unfamiliar word become those numbers?
+Splitting only at spaces gives two chunks, each with punctuation still attached.
+And assigning one number to every possible word and spelling would require an enormous vocabulary.
+
+Text to IDs
+
+Instead, the tokenizer converts the text in stages.
+First, this example’s configured cleanup rules remove accents and lowercase letters, turning “Héllò” into “hello.”
+Next, splitting around spaces and punctuation establishes regions for “hello,” the comma, “annoyingly,” and the exclamation mark.
+These regions are not necessarily the final tokens.
+Learned rules divide them into pieces found in a fixed vocabulary.
+Suppose this vocabulary contains “hello,” “annoying,” and “ly,” but not “annoyingly” as a whole.
+Because the whole word is absent, it becomes the two known pieces “annoying” and “ly.” Reusing smaller pieces lets unfamiliar words remain representable.
+Every final token, including punctuation, is then looked up in the vocabulary, which supplies one ID for each token.
+
+Returned encoding
+
+A final configured step may add special tokens that were not in the sentence.
+If the target format expects start and end markers, they are added before the encoding is returned.
+The result now contains one ID each for the start marker, “hello,” comma, “annoying,” “ly,” exclamation mark, and end marker.
+Now replace “annoyingly” with “hello.” Because this vocabulary stores “hello” as one token, the replacement uses one ID rather than two.
+Another tokenizer may split the same text differently because its cleanup rules and vocabulary can differ.
+The tokenizer’s job ends with this returned encoding; what the model does with those IDs comes next.

@@ -1,0 +1,42 @@
+React State to Screen
+All automated checks passed. Owner editorial review pending.
+
+The surprising click
+
+Why does the code behind a counter still see zero after asking React to show one?
+A component is a function describing part of a page. Ours describes a counter.
+The counter needs memory that survives between runs.
+React calls this memory state.
+useState provides the current state, named count here, and setCount, a function for requesting its next value.
+The page shows “Count: zero.” Clicking the button runs its click handler—the code that responds to the click.
+That code requests count plus one.
+You might expect count to change immediately, like an ordinary variable.
+Yet a log on the next line still prints zero, while the page soon shows one.
+The setter requests a render—another run of the component—instead of rewriting count in code already running.
+
+From state to screen
+
+Each run receives one fixed snapshot of state.
+This click’s snapshot is zero, so count plus one requests one as the next state.
+After the click handler finishes, React processes the request and runs the component again.
+Now useState supplies one, and the JSX—the component’s page description—says “Count: one.”
+React compares that description with the previous one, which said “Count: zero.”
+It updates the DOM, the browser’s stored page structure, changing only the counter text that differs.
+The browser paints the updated page, so the person sees “Count: one.”
+
+Predict plus two
+
+Now change only the request: while zero is displayed, ask for count plus two.
+The snapshot is still zero, so React stores two for the next run, whose page description says “Count: two.”
+
+What if no state is requested?
+
+Without a setter call, this example requests no state-driven rerun, so it remains at zero.
+
+The same chain for other controls
+
+Text fields and toggles follow the same chain: request new state, run the component again, and update what differs.
+
+Keep the model simple
+
+This explains one basic useState update and one handler’s fixed snapshot; effects, object updates, and advanced scheduling are separate topics.

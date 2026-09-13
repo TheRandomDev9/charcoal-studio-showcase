@@ -1,0 +1,30 @@
+MCP Makes Connections Reusable
+All automated checks passed. Owner editorial review pending.
+
+The repeated connection problem
+
+Suppose a user asks an AI assistant, “Find an open time on my work calendar.”
+The request alone is not enough, because the assistant cannot see that private information without a permitted connection.
+Without MCP, a developer can connect it directly to the calendar’s API—the rules that software follows to request calendar data and receive replies.
+That can work, but a second assistant may need a similar calendar connection.
+And if the first assistant also needs a database, developers must build another system-specific connection.
+
+A reusable boundary
+
+MCP, the Model Context Protocol, changes this boundary.
+It is an open standard for connecting AI applications to external systems.
+An MCP client inside the assistant maintains the connection and discovers what a connected server offers.
+The calendar MCP server packages calendar-specific information and operations in that shared form.
+It might expose a resource containing calendar details and a tool that can check availability.
+The assistant invokes the availability tool because current calendar data is needed.
+The server translates that standard request into the calendar system’s own rules, then returns an open time through MCP.
+Because the boundary is shared, another compatible assistant can use the same calendar server without rebuilding that entire connection.
+
+What changes and what remains
+
+Now change one condition: the user asks about an existing company database instead of the calendar.
+The assistant can keep its general MCP client behavior, but it connects to a database MCP server.
+That server can expose the database’s structure, relevant records, or a query tool, while handling database-specific translation.
+MCP does not eliminate integration work: someone still builds and maintains each server and connects it to the real system.
+For private calendar access, the application still has to manage sign-in, enforce permissions, and let the user deny consequential actions.
+MCP standardizes the exchange; it does not decide how the AI reasons or whether an action should happen.
