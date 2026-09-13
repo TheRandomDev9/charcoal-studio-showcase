@@ -1,22 +1,44 @@
 {
-  "collection": "Visual upgrade \u2014 same narration",
+  "collection": "Direction-aware connectors",
   "films": [
     {
       "slug": "api-gateway",
-      "title": "API Gateway: One Entrance \u2014 visual upgrade",
+      "title": "API Gateway: One Entrance \u2014 connector upgrade",
       "duration": "2:34",
       "durationSeconds": 154.066667,
-      "promise": "Same story and narration, upgraded visual system: role symbols, cleaner diagrams, product-style results and a polished recap. Review preview; full release review remains pending.",
-      "video": "videos/premium-visuals/api-gateway.mp4",
-      "poster": "posters/premium-visuals/api-gateway.jpg",
-      "transcript": "transcripts/premium-visuals/api-gateway.txt",
+      "promise": "Premium visuals with direction-aware connectors: outward requests, returning responses and two-way links where declared. Same script and narration. Review preview; full release review remains pending.",
+      "video": "videos/connector-upgrade/api-gateway.mp4",
+      "poster": "posters/connector-upgrade/api-gateway.jpg",
+      "transcript": "transcripts/connector-upgrade/api-gateway.txt",
       "status": "preview",
       "releaseReady": false,
-      "sourceCommit": "32528d0",
-      "sha256": "854bcc00f8a64a1a413dbc814c931c0f61dfdffc9ed2a877ebf2b41dedef6684"
+      "sourceCommit": "5fcb175",
+      "sha256": "5a688933c93efbe988f219046d148bb177fde31e0d09a3a454abfd939759e994"
     }
   ],
   "collections": [
+    {
+      "id": "connector-upgrade",
+      "title": "Direction-aware connectors",
+      "description": "Requests, responses and two-way exchanges follow the actual mechanism. Same narration as the previous previews.",
+      "sourceCommit": "5fcb175",
+      "films": [
+        {
+          "slug": "api-gateway",
+          "title": "API Gateway: One Entrance \u2014 connector upgrade",
+          "duration": "2:34",
+          "durationSeconds": 154.066667,
+          "promise": "Premium visuals with direction-aware connectors: outward requests, returning responses and two-way links where declared. Same script and narration. Review preview; full release review remains pending.",
+          "video": "videos/connector-upgrade/api-gateway.mp4",
+          "poster": "posters/connector-upgrade/api-gateway.jpg",
+          "transcript": "transcripts/connector-upgrade/api-gateway.txt",
+          "status": "preview",
+          "releaseReady": false,
+          "sourceCommit": "5fcb175",
+          "sha256": "5a688933c93efbe988f219046d148bb177fde31e0d09a3a454abfd939759e994"
+        }
+      ]
+    },
     {
       "id": "premium-visuals",
       "title": "Visual upgrade \u2014 same narration",
