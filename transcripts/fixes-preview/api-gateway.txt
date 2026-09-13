@@ -1,0 +1,33 @@
+API Gateway: One Entrance
+Review preview — not a production release.
+
+The direct-call problem
+
+Imagine a shopping app displaying a summary for an existing order.
+It gets the details and delivery status from separate behind-the-scenes systems, called backend services.
+The app could call both services directly.
+But then its code must know both addresses and coordinate two requests and responses.
+Shared checks, such as confirming access, can also be repeated across public-facing services.
+And if the delivery service moves, the app may need its new address.
+
+One entrance
+
+An API gateway changes who manages that client-facing complexity.
+It sits between the app and the backend services as one known entry point.
+Now the app sends one order-summary request to the gateway instead of locating both services itself.
+The gateway first checks whether the client may access the information.
+That central check keeps each service from repeating the same client-facing authentication step.
+Because the summary needs two kinds of information, the gateway routes work to the order and delivery services.
+Those services still perform their real jobs: one supplies order details, and the other supplies delivery status.
+The gateway coordinates the exchange; it does not replace their business logic.
+The gateway combines the two results and returns one complete summary.
+The app receives what it needs without coordinating two service calls itself.
+
+Changes and constants
+
+Think of the gateway as a front desk.
+Visitors use one entrance, while the front desk knows which internal destination should handle each request.
+Suppose the delivery service for that order moves to a new internal address.
+An operator updates the gateway's route, and the app keeps using the same public endpoint.
+That separation is the main benefit: the client depends on the gateway's stable entrance instead of every internal address.
+But operators must maintain the gateway, and a simple application may not need aggregation or its other features.

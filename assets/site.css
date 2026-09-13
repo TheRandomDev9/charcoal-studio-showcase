@@ -134,3 +134,9 @@ footer a { text-decoration: none; }
   html { scroll-behavior: auto; }
   .film-card { opacity: 1; transform: none; animation: none; }
 }
+
+.collection-picker { display:flex; gap:14px; align-items:center; margin:0 0 30px; font-size:12px; }
+.collection-picker select { max-width:75%; padding:12px; color:var(--paper); background:var(--ink); border:1px solid var(--line); font:inherit; }
+
+.transcript:not([hidden]) { display:flex; justify-content:space-between; padding:14px 0; border-top:1px solid var(--line); text-decoration:none; font-size:11px; }
+.transcript span { color:var(--acid); }

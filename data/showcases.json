@@ -1,31 +1,75 @@
 {
-  "collection": "Teaching-first v2",
-  "sourceBranch": "codex/teaching-first-full-plan",
-  "sourceCommit": "7f828c4",
+  "collection": "Latest fixes \u2014 review preview",
   "films": [
     {
-      "slug": "react-state",
-      "title": "How React State Reaches the Page",
-      "duration": "2:15",
-      "promise": "Follow one click from a queued state update to the pixels the viewer finally sees.",
-      "video": "videos/teaching-first-v2/react-state.mp4",
-      "poster": "posters/teaching-first-v2/react-state.jpg"
+      "slug": "api-gateway",
+      "title": "API Gateway: One Entrance \u2014 review preview",
+      "duration": "2:34",
+      "durationSeconds": 154.066667,
+      "promise": "Follow an order-summary request from separate service calls to an API gateway. Preview of the corrected narration and visuals; full production release review is still pending.",
+      "video": "videos/fixes-preview/api-gateway.mp4",
+      "poster": "posters/fixes-preview/api-gateway.jpg",
+      "transcript": "transcripts/fixes-preview/api-gateway.txt",
+      "status": "preview",
+      "releaseReady": false,
+      "sourceCommit": "6d5c811",
+      "sha256": "909b666ca2e8354a246d873eee713759eb43ab78389a3f00dd2d92fd93d2ecd9"
+    }
+  ],
+  "collections": [
+    {
+      "id": "fixes-preview",
+      "title": "Latest fixes \u2014 review preview",
+      "description": "One new preview. Full production release review remains pending. Older videos are in the comparison collection.",
+      "sourceCommit": "6d5c811",
+      "films": [
+        {
+          "slug": "api-gateway",
+          "title": "API Gateway: One Entrance \u2014 review preview",
+          "duration": "2:34",
+          "durationSeconds": 154.066667,
+          "promise": "Follow an order-summary request from separate service calls to an API gateway. Preview of the corrected narration and visuals; full production release review is still pending.",
+          "video": "videos/fixes-preview/api-gateway.mp4",
+          "poster": "posters/fixes-preview/api-gateway.jpg",
+          "transcript": "transcripts/fixes-preview/api-gateway.txt",
+          "status": "preview",
+          "releaseReady": false,
+          "sourceCommit": "6d5c811",
+          "sha256": "909b666ca2e8354a246d873eee713759eb43ab78389a3f00dd2d92fd93d2ecd9"
+        }
+      ]
     },
     {
-      "slug": "tokenizer",
-      "title": "How a Tokenizer Sees Your Words",
-      "duration": "2:24",
-      "promise": "Turn a sentence into model-sized pieces and see why the boundaries rarely match whole words.",
-      "video": "videos/teaching-first-v2/tokenizer.mp4",
-      "poster": "posters/teaching-first-v2/tokenizer.jpg"
-    },
-    {
-      "slug": "mcp",
-      "title": "What MCP Actually Connects",
-      "duration": "1:59",
-      "promise": "Trace one useful request through the shared protocol between an AI application and a tool server.",
-      "video": "videos/teaching-first-v2/mcp.mp4",
-      "poster": "posters/teaching-first-v2/mcp.jpg"
+      "id": "teaching-first-v2",
+      "collection": "Teaching-first v2",
+      "sourceBranch": "codex/teaching-first-full-plan",
+      "sourceCommit": "7f828c4",
+      "films": [
+        {
+          "slug": "react-state",
+          "title": "How React State Reaches the Page",
+          "duration": "2:15",
+          "promise": "Follow one click from a queued state update to the pixels the viewer finally sees.",
+          "video": "videos/teaching-first-v2/react-state.mp4",
+          "poster": "posters/teaching-first-v2/react-state.jpg"
+        },
+        {
+          "slug": "tokenizer",
+          "title": "How a Tokenizer Sees Your Words",
+          "duration": "2:24",
+          "promise": "Turn a sentence into model-sized pieces and see why the boundaries rarely match whole words.",
+          "video": "videos/teaching-first-v2/tokenizer.mp4",
+          "poster": "posters/teaching-first-v2/tokenizer.jpg"
+        },
+        {
+          "slug": "mcp",
+          "title": "What MCP Actually Connects",
+          "duration": "1:59",
+          "promise": "Trace one useful request through the shared protocol between an AI application and a tool server.",
+          "video": "videos/teaching-first-v2/mcp.mp4",
+          "poster": "posters/teaching-first-v2/mcp.jpg"
+        }
+      ]
     }
   ]
 }

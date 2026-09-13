@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,650&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/site.css" />
+    <link rel="stylesheet" href="assets/site.css?v=explanation-first" />
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
@@ -23,9 +23,9 @@
 
     <main id="top">
       <section class="hero">
-        <p class="eyebrow">Teaching-first engine · review build 02</p>
+        <p class="eyebrow">Charcoal Studio · video review</p>
         <h1>Ideas should feel<br /><em>obvious</em> by the end.</h1>
-        <p class="lede">Three technical explanations, rendered for a phone. Listen for the story, watch whether each visual earns its place, and judge the final takeaway.</p>
+        <p class="lede">Technical explanations, rendered for a phone. Listen for the story, watch whether each visual earns its place, and judge the final takeaway.</p>
         <a class="jump" href="#screenings">Watch the screenings <span>↓</span></a>
       </section>
 
@@ -39,10 +39,11 @@
         <header class="section-head">
           <div>
             <p class="eyebrow">Now screening</p>
-            <h2>Teaching-first v2</h2>
+            <h2 id="collection-title">Screenings</h2>
           </div>
-          <p>3 films · 6m 38s total</p>
+          <p id="collection-meta"></p>
         </header>
+        <label class="collection-picker">Collection <select id="collection-picker" aria-label="Video collection"></select></label>
         <div class="film-grid" id="film-grid" aria-live="polite"></div>
       </section>
     </main>
@@ -63,11 +64,12 @@
           <div class="film-meta"><span class="duration"></span><span class="format">SHORT · 9:16</span></div>
           <h3></h3>
           <p class="promise"></p>
+          <a class="transcript" hidden>Read the script <span>↗</span></a>
           <a class="download" download>Download MP4 <span>↓</span></a>
         </div>
       </article>
     </template>
 
-    <script src="assets/site.js" defer></script>
+    <script src="assets/site.js?v=explanation-first" defer></script>
   </body>
 </html>
