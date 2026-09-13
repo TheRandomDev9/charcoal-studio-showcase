@@ -1,22 +1,44 @@
 {
-  "collection": "Latest fixes \u2014 review preview",
+  "collection": "Visual upgrade \u2014 same narration",
   "films": [
     {
       "slug": "api-gateway",
-      "title": "API Gateway: One Entrance \u2014 review preview",
+      "title": "API Gateway: One Entrance \u2014 visual upgrade",
       "duration": "2:34",
       "durationSeconds": 154.066667,
-      "promise": "Follow an order-summary request from separate service calls to an API gateway. Preview of the corrected narration and visuals; full production release review is still pending.",
-      "video": "videos/fixes-preview/api-gateway.mp4",
-      "poster": "posters/fixes-preview/api-gateway.jpg",
-      "transcript": "transcripts/fixes-preview/api-gateway.txt",
+      "promise": "Same story and narration, upgraded visual system: role symbols, cleaner diagrams, product-style results and a polished recap. Review preview; full release review remains pending.",
+      "video": "videos/premium-visuals/api-gateway.mp4",
+      "poster": "posters/premium-visuals/api-gateway.jpg",
+      "transcript": "transcripts/premium-visuals/api-gateway.txt",
       "status": "preview",
       "releaseReady": false,
-      "sourceCommit": "6d5c811",
-      "sha256": "909b666ca2e8354a246d873eee713759eb43ab78389a3f00dd2d92fd93d2ecd9"
+      "sourceCommit": "32528d0",
+      "sha256": "854bcc00f8a64a1a413dbc814c931c0f61dfdffc9ed2a877ebf2b41dedef6684"
     }
   ],
   "collections": [
+    {
+      "id": "premium-visuals",
+      "title": "Visual upgrade \u2014 same narration",
+      "description": "Shared engine upgrade. Compare with the previous fixes preview using the collection selector.",
+      "sourceCommit": "32528d0",
+      "films": [
+        {
+          "slug": "api-gateway",
+          "title": "API Gateway: One Entrance \u2014 visual upgrade",
+          "duration": "2:34",
+          "durationSeconds": 154.066667,
+          "promise": "Same story and narration, upgraded visual system: role symbols, cleaner diagrams, product-style results and a polished recap. Review preview; full release review remains pending.",
+          "video": "videos/premium-visuals/api-gateway.mp4",
+          "poster": "posters/premium-visuals/api-gateway.jpg",
+          "transcript": "transcripts/premium-visuals/api-gateway.txt",
+          "status": "preview",
+          "releaseReady": false,
+          "sourceCommit": "32528d0",
+          "sha256": "854bcc00f8a64a1a413dbc814c931c0f61dfdffc9ed2a877ebf2b41dedef6684"
+        }
+      ]
+    },
     {
       "id": "fixes-preview",
       "title": "Latest fixes \u2014 review preview",
