@@ -1,0 +1,63 @@
+{
+  "title": "What MCP connects and what it standardizes",
+  "reviewPreview": true,
+  "releaseReady": false,
+  "automatedTeachingStatus": "ready",
+  "automatedChecks": [
+    {
+      "check": "schema",
+      "status": "pass"
+    },
+    {
+      "check": "engine",
+      "status": "pass"
+    },
+    {
+      "check": "facts",
+      "status": "pass"
+    },
+    {
+      "check": "script_visual",
+      "status": "pass"
+    },
+    {
+      "check": "audio",
+      "status": "pass"
+    },
+    {
+      "check": "alignment",
+      "status": "pass"
+    },
+    {
+      "check": "visual",
+      "status": "pass"
+    },
+    {
+      "check": "media",
+      "status": "pass"
+    },
+    {
+      "check": "rights",
+      "status": "not_applicable"
+    },
+    {
+      "check": "editorial",
+      "status": "missing"
+    }
+  ],
+  "sourceMovieSha256": "68902fe4c579622e1ecb9614436015b75caf54bb7a2b54813d6cf9687e3cf2cd",
+  "galleryMovieSha256": "2011ac7effc94a8a19d83cac8dca6d9d352994a87e73b0e1f21775daef83a176",
+  "durationSeconds": 148.133008,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "firstPass": false,
+  "supervisedEditorialCorrection": true,
+  "retainedAudioRebuild": true,
+  "engineDeployment": "deploy-20260914-071441",
+  "limitations": [
+    "Recovered production story with supervised corrections and an engine rebuild; not evidence of first-pass quality or the requested generation-time target.",
+    "Owner editorial publication approval remains outstanding."
+  ]
+}

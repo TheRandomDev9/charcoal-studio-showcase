@@ -1,0 +1,63 @@
+{
+  "title": "Install Flutter on an Apple Silicon Mac",
+  "reviewPreview": true,
+  "releaseReady": false,
+  "automatedTeachingStatus": "ready",
+  "automatedChecks": [
+    {
+      "check": "schema",
+      "status": "pass"
+    },
+    {
+      "check": "engine",
+      "status": "pass"
+    },
+    {
+      "check": "facts",
+      "status": "pass"
+    },
+    {
+      "check": "script_visual",
+      "status": "pass"
+    },
+    {
+      "check": "audio",
+      "status": "pass"
+    },
+    {
+      "check": "alignment",
+      "status": "pass"
+    },
+    {
+      "check": "visual",
+      "status": "pass"
+    },
+    {
+      "check": "media",
+      "status": "pass"
+    },
+    {
+      "check": "rights",
+      "status": "not_applicable"
+    },
+    {
+      "check": "editorial",
+      "status": "missing"
+    }
+  ],
+  "sourceMovieSha256": "0ee715085de0d121b57565454371ac130671e1cb1cf4c0466602cdd85ed87aac",
+  "galleryMovieSha256": "c98d910e30e0f1f15b76936de85cf93f1e825067cec61b1df924a2043c592874",
+  "durationSeconds": 155.9,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "firstPass": false,
+  "schedulerAttempts": 3,
+  "supervisedEditorialCorrection": true,
+  "engineDeployment": "deploy-20260914-060132",
+  "limitations": [
+    "Recovered production job with a supervised narration correction; not evidence of first-pass quality or the requested generation-time target.",
+    "Owner editorial publication approval remains outstanding."
+  ]
+}

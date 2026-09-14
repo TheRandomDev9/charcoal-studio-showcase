@@ -1,0 +1,62 @@
+{
+  "title": "How temperature shapes an LLM\u2019s choices",
+  "reviewPreview": true,
+  "releaseReady": false,
+  "automatedTeachingStatus": "ready",
+  "automatedChecks": [
+    {
+      "check": "schema",
+      "status": "pass"
+    },
+    {
+      "check": "engine",
+      "status": "pass"
+    },
+    {
+      "check": "facts",
+      "status": "pass"
+    },
+    {
+      "check": "script_visual",
+      "status": "pass"
+    },
+    {
+      "check": "audio",
+      "status": "pass"
+    },
+    {
+      "check": "alignment",
+      "status": "pass"
+    },
+    {
+      "check": "visual",
+      "status": "pass"
+    },
+    {
+      "check": "media",
+      "status": "pass"
+    },
+    {
+      "check": "rights",
+      "status": "not_applicable"
+    },
+    {
+      "check": "editorial",
+      "status": "missing"
+    }
+  ],
+  "sourceMovieSha256": "ed6abf0abdbb31b9202fdbc25281ad64a453dc8a5a9b80040ae1d621d2bf9063",
+  "galleryMovieSha256": "d76672052ee8aa4354632fb0fa16ffa464ec1aff43c8d174afdc5184e951ffc2",
+  "durationSeconds": 140.766667,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "firstPass": false,
+  "schedulerAttempts": 3,
+  "engineDeployment": "deploy-20260914-060132",
+  "limitations": [
+    "Recovered production job; not evidence of first-pass quality or the requested generation-time target.",
+    "Owner editorial publication approval remains outstanding."
+  ]
+}

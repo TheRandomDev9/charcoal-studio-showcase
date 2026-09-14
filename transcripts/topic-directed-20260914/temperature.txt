@@ -1,0 +1,17 @@
+Why replies can differ
+Ask an LLM the same question twice, and its replies can differ. It builds each reply one token at a time: a token can be a word or part of a word. At each step, the prompt and text already generated determine the chances of possible next tokens.
+
+A weighted choice
+Imagine completing: “For breakfast, I drink.” In our invented example, only three tokens are possible: tea, coffee, and juice, ordered from most to least likely. Sampling means drawing according to those chances. Tea is favored, but coffee or juice can still be chosen. At temperature one, the starting chances stay unchanged.
+
+Lower temperature
+Keep the prompt and underlying model scores fixed, with sampling enabled and no other filters. Now lower the temperature below one. This sharpens differences in relative likelihood, concentrating the chances toward the strongest choice. Tea becomes more likely; juice becomes less likely. Tea still isn't guaranteed.
+
+Higher temperature
+Return to the original scores and raise temperature above one. This softens the differences, making the chances more even: tea loses probability, and juice gains it. Their ranking stays the same. Temperature changes how strongly the draw favors the leaders, allowing more variation.
+
+One choice changes what follows
+Suppose the draw selects coffee. The text now ends with “I drink coffee,” and the next prediction uses that continuation. One different choice can lead the reply down a different path.
+
+Predictability has limits
+Near zero, temperature approaches greedy selection: picking the most likely token each time. Here, that's tea. Lower temperature concentrates choices; higher temperature spreads them out. Neither guarantees a particular reply or factual correctness: being likely isn't the same as being true.
