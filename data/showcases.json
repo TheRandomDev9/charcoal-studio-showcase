@@ -1,22 +1,72 @@
 {
-  "collection": "Connector readability \u00b7 kubectl",
+  "collection": "Readable timing and device cards",
   "films": [
+    {
+      "slug": "temperature",
+      "title": "How temperature shapes an LLM\u2019s choices",
+      "durationSeconds": 140.766016,
+      "duration": "2:21",
+      "video": "videos/visual-quality-20260914/temperature.mp4?v=0052dce57329",
+      "poster": "posters/visual-quality-20260914/temperature.jpg",
+      "transcript": "transcripts/visual-quality-20260914/temperature.txt",
+      "provenance": "provenance/visual-quality-20260914/temperature.json",
+      "status": "preview",
+      "releaseReady": false,
+      "promise": "Breakfast probabilities stay visible through their explanation; the knob arrives in its own chapter.",
+      "sha256": "0052dce57329f14e28e5c9b04af2c8a9375fc619ed65c81f58f4c653a520e65b"
+    },
     {
       "slug": "kubectl",
       "title": "What kubectl does",
       "durationSeconds": 155.433008,
       "duration": "2:35",
-      "video": "videos/connectors-20260914/kubectl.mp4?v=6dca28225890",
-      "poster": "posters/connectors-20260914/kubectl.jpg",
-      "transcript": "transcripts/connectors-20260914/kubectl.txt",
-      "provenance": "provenance/connectors-20260914/kubectl.json",
+      "video": "videos/visual-quality-20260914/kubectl.mp4?v=7e1043caeccf",
+      "poster": "posters/visual-quality-20260914/kubectl.jpg",
+      "transcript": "transcripts/visual-quality-20260914/kubectl.txt",
+      "provenance": "provenance/visual-quality-20260914/kubectl.json",
       "status": "preview",
       "releaseReady": false,
-      "promise": "Clearer hierarchy branches, visible request/response arrows, and readable namespace evidence. Existing corrected narration retained.",
-      "sha256": "6dca282258905be10b350ed554a03efc5edfc0c3deadaaa4f8702965fc41c519"
+      "promise": "Larger device illustrations, tighter cards, clearer connector arrows, and readable namespace evidence.",
+      "sha256": "7e1043caeccf8772b4c3acfa41eadc2655cab0d09ec1d60fd42143c23d216164"
     }
   ],
   "collections": [
+    {
+      "id": "visual-quality-20260914",
+      "title": "Readable timing and device cards",
+      "description": "Temperature and kubectl revisions from your latest visual feedback.",
+      "sourceCommit": "9acf031",
+      "films": [
+        {
+          "slug": "temperature",
+          "title": "How temperature shapes an LLM\u2019s choices",
+          "durationSeconds": 140.766016,
+          "duration": "2:21",
+          "video": "videos/visual-quality-20260914/temperature.mp4?v=0052dce57329",
+          "poster": "posters/visual-quality-20260914/temperature.jpg",
+          "transcript": "transcripts/visual-quality-20260914/temperature.txt",
+          "provenance": "provenance/visual-quality-20260914/temperature.json",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Breakfast probabilities stay visible through their explanation; the knob arrives in its own chapter.",
+          "sha256": "0052dce57329f14e28e5c9b04af2c8a9375fc619ed65c81f58f4c653a520e65b"
+        },
+        {
+          "slug": "kubectl",
+          "title": "What kubectl does",
+          "durationSeconds": 155.433008,
+          "duration": "2:35",
+          "video": "videos/visual-quality-20260914/kubectl.mp4?v=7e1043caeccf",
+          "poster": "posters/visual-quality-20260914/kubectl.jpg",
+          "transcript": "transcripts/visual-quality-20260914/kubectl.txt",
+          "provenance": "provenance/visual-quality-20260914/kubectl.json",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Larger device illustrations, tighter cards, clearer connector arrows, and readable namespace evidence.",
+          "sha256": "7e1043caeccf8772b4c3acfa41eadc2655cab0d09ec1d60fd42143c23d216164"
+        }
+      ]
+    },
     {
       "id": "connectors-20260914",
       "title": "Connector readability \u00b7 kubectl",
