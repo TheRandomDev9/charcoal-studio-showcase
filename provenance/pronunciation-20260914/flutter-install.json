@@ -1,0 +1,65 @@
+{
+  "title": "Install Flutter on an Apple Silicon Mac",
+  "reviewPreview": true,
+  "releaseReady": false,
+  "automatedTeachingStatus": "ready",
+  "automatedChecks": [
+    {
+      "check": "schema",
+      "status": "pass"
+    },
+    {
+      "check": "engine",
+      "status": "pass"
+    },
+    {
+      "check": "facts",
+      "status": "pass"
+    },
+    {
+      "check": "script_visual",
+      "status": "pass"
+    },
+    {
+      "check": "audio",
+      "status": "pass"
+    },
+    {
+      "check": "alignment",
+      "status": "pass"
+    },
+    {
+      "check": "visual",
+      "status": "pass"
+    },
+    {
+      "check": "media",
+      "status": "pass"
+    },
+    {
+      "check": "rights",
+      "status": "not_applicable"
+    },
+    {
+      "check": "editorial",
+      "status": "missing"
+    }
+  ],
+  "sourceMovieSha256": "1eb939ba9eae784f3c5caccea9a25d438197d9f92756ef5091a05307ae29fd66",
+  "galleryMovieSha256": "6ed8736931b52956d80f67dc9282c77c2196898a600852657b302635cf9e989d",
+  "durationSeconds": 156.0,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "firstPass": false,
+  "pronunciationRebuild": true,
+  "retainedAudioRebuild": false,
+  "manuscriptUnchanged": true,
+  "storySHA256": "c6297ff34dc1e74f7762487e919929b9f15b60a03c77918d2a4abc9125627e2f",
+  "engineDeployment": "deploy-20260914-145037",
+  "limitations": [
+    "Rebuilt from a retained story; not a first-pass production benchmark.",
+    "Owner listening and editorial publication approval remain outstanding."
+  ]
+}

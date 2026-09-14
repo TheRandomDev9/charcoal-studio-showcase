@@ -1,0 +1,31 @@
+Installing Flutter means unpacking its toolkit and making its commands discoverable. First, open Terminal on your Apple Silicon Mac and install Apple's command-line tools using the command shown.
+These include Git, which Flutter needs.
+Complete the installation dialog if prompted.
+We'll use Zsh, the default macOS shell that interprets your terminal commands.
+
+Check your chip in About This Mac, then choose the stable Apple Silicon download on Flutter's official installation page.
+This downloads the SDK: Flutter's software development toolkit.
+The download must match your Mac's processor.
+
+Create a folder for the toolkit, then extract your downloaded archive there using the shown command, substituting your actual download location.
+Our example keeps the extracted Flutter folder inside that folder.
+Remember this location; the next step depends on it.
+
+Extracting files doesn't tell Terminal where their commands live.
+PATH is the list of folders it searches for commands.
+Open or create the shown Zsh configuration file.
+Add this line so that search includes Flutter's command folder, then save.
+
+Close and reopen terminal sessions, including those in your editor, so they load the saved setting.
+Run both version checks.
+Expect version information from both checks.
+Seeing that output confirms both commands start.
+
+If a command isn't found, check that your saved PATH points to the extracted toolkit's command folder, then reopen Terminal and retry.
+If you installed elsewhere, that entry must use your actual location.
+
+Finally, run Flutter Doctor to check development tooling.
+Address requirements for your chosen app platform; missing Android Studio can be ignored if you're targeting another platform.
+Successful version output confirms that SDK commands can start.
+Building an app needs platform setup too.
+Verify the commands, then prepare your chosen platform.

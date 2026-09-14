@@ -1,0 +1,65 @@
+{
+  "title": "How temperature shapes an LLM\u2019s choices",
+  "reviewPreview": true,
+  "releaseReady": false,
+  "automatedTeachingStatus": "ready",
+  "automatedChecks": [
+    {
+      "check": "schema",
+      "status": "pass"
+    },
+    {
+      "check": "engine",
+      "status": "pass"
+    },
+    {
+      "check": "facts",
+      "status": "pass"
+    },
+    {
+      "check": "script_visual",
+      "status": "pass"
+    },
+    {
+      "check": "audio",
+      "status": "pass"
+    },
+    {
+      "check": "alignment",
+      "status": "pass"
+    },
+    {
+      "check": "visual",
+      "status": "pass"
+    },
+    {
+      "check": "media",
+      "status": "pass"
+    },
+    {
+      "check": "rights",
+      "status": "not_applicable"
+    },
+    {
+      "check": "editorial",
+      "status": "missing"
+    }
+  ],
+  "sourceMovieSha256": "62403c72b5482dba44a813ef6a3fd01cc1da0322abab27574e499129c355973a",
+  "galleryMovieSha256": "9ecd8a61acfbd21c8d06f60a651fe13373b9f4edce239c2ca21e20b8b560586e",
+  "durationSeconds": 140.766016,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "firstPass": false,
+  "pronunciationRebuild": true,
+  "retainedAudioRebuild": false,
+  "manuscriptUnchanged": true,
+  "storySHA256": "9869c888d234017c4a5b8cd4b427d751ed7f576302d704a3e8876b0fa9933b47",
+  "engineDeployment": "deploy-20260914-145037",
+  "limitations": [
+    "Rebuilt from a retained story; not a first-pass production benchmark.",
+    "Owner listening and editorial publication approval remain outstanding."
+  ]
+}

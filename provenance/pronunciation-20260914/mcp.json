@@ -1,0 +1,65 @@
+{
+  "title": "What MCP Connects",
+  "reviewPreview": true,
+  "releaseReady": false,
+  "automatedTeachingStatus": "ready",
+  "automatedChecks": [
+    {
+      "check": "schema",
+      "status": "pass"
+    },
+    {
+      "check": "engine",
+      "status": "pass"
+    },
+    {
+      "check": "facts",
+      "status": "pass"
+    },
+    {
+      "check": "script_visual",
+      "status": "pass"
+    },
+    {
+      "check": "audio",
+      "status": "pass"
+    },
+    {
+      "check": "alignment",
+      "status": "pass"
+    },
+    {
+      "check": "visual",
+      "status": "pass"
+    },
+    {
+      "check": "media",
+      "status": "pass"
+    },
+    {
+      "check": "rights",
+      "status": "not_applicable"
+    },
+    {
+      "check": "editorial",
+      "status": "missing"
+    }
+  ],
+  "sourceMovieSha256": "9c8031e9b3532212e8e400a1b659a1d17fda03256e94e32e53ffbf49a03c701f",
+  "galleryMovieSha256": "f0e9997c47e5b78d70b680df7bff7bda567b1aa8beca816300d3870093dda3ab",
+  "durationSeconds": 146.4,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "firstPass": false,
+  "pronunciationRebuild": true,
+  "retainedAudioRebuild": false,
+  "manuscriptUnchanged": true,
+  "storySHA256": "4d42dfe65274632c050765e3c034dc68376da11208555e769df3383ea42e38ce",
+  "engineDeployment": "deploy-20260914-145037",
+  "limitations": [
+    "Rebuilt from a retained story; not a first-pass production benchmark.",
+    "Owner listening and editorial publication approval remain outstanding."
+  ]
+}

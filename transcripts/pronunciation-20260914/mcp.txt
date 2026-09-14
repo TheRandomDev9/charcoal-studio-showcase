@@ -1,0 +1,22 @@
+Two AI applications need the same inventory. Must each connection use different rules?
+Which products are currently unavailable? Asking this doesn't itself connect an assistant to the database.
+The Model Context Protocol, or MCP, is an open standard for connecting AI applications to outside information and actions.
+
+In this hypothetical example, we're already connected to an MCP server: a program offering capabilities with access to our inventory database.
+The application is called the host.
+Inside it, a client maintains the connection to that server.
+
+First, the client discovers an inventory query tool. A tool is an operation the application can request. Resources expose information to read, while prompts provide reusable interaction templates.
+When the model requests that tool to find unavailable products, the application sends the request through its client to the server.
+
+Our example database contains Desk Lamp, marked unavailable.
+The server selects the matching record and returns it.
+The application gives the result to the model, which answers: Desk Lamp is currently unavailable. This returned information need not be separately exposed as a resource.
+
+Now another AI application needs the same inventory query.
+Different rules for requests and results can mean writing new connection code.
+MCP standardizes tool discovery, requests and results, so another compatible application can reuse our server instead of needing its own exchange design.
+
+Consider MCP for outside information or actions, especially when several compatible applications need the same capabilities.
+Developers still provide data access and tool behavior.
+The application manages returned information; MCP doesn't determine the model's reasoning.
