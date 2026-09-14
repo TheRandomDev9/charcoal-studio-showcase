@@ -45,18 +45,19 @@
       "status": "missing"
     }
   ],
-  "sourceMovieSha256": "ed6abf0abdbb31b9202fdbc25281ad64a453dc8a5a9b80040ae1d621d2bf9063",
-  "galleryMovieSha256": "d76672052ee8aa4354632fb0fa16ffa464ec1aff43c8d174afdc5184e951ffc2",
-  "durationSeconds": 140.766667,
+  "sourceMovieSha256": "80f04bc818541b7b999ee4cb8fe724baaa59486d99339f832db4a07dafddddd5",
+  "galleryMovieSha256": "80df3e9c09e5bb23f82eb543e448fb44b707ae46825e5cd24d15cac7064a4510",
+  "durationSeconds": 140.766016,
   "dimensions": [
     1080,
     1920
   ],
   "firstPass": false,
-  "schedulerAttempts": 3,
-  "engineDeployment": "deploy-20260914-060132",
+  "supervisedEditorialCorrection": true,
+  "retainedAudioRebuild": true,
+  "engineDeployment": "deploy-20260914-074827",
   "limitations": [
-    "Recovered production job; not evidence of first-pass quality or the requested generation-time target.",
+    "Recovered production story with supervised corrections and an engine rebuild; not evidence of first-pass quality or the requested generation-time target.",
     "Owner editorial publication approval remains outstanding."
   ]
 }
