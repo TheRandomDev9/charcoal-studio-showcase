@@ -1,0 +1,30 @@
+You want to inspect applications in a Kubernetes cluster: worker machines plus a control plane that manages them.
+Assume kubectl is installed with working access.
+How does your computer find information about applications on those machines?
+Kubectl is a command-line client for the Kubernetes API, the cluster's software interface.
+
+We're asking for Pods. A Pod groups one or more containers with shared networking and storage.
+A container runs application software from a package called an image.
+Each running Pod lives on a Node, a worker machine.
+The control plane manages cluster state, including where Pods are scheduled.
+
+First, kubectl reads connection configuration, called kubeconfig, to select the cluster and access information.
+The current context, its saved selection, also chooses a namespace: a named scope for resources within that cluster.
+Our illustrative namespace contains a Pod named web.
+
+The get operation asks for Pod information.
+Kubectl sends the request to the API server, the control-plane component exposing the Kubernetes API.
+The server returns resource information, and kubectl displays the Pod list.
+Here, it includes web.
+This illustrates expected output; no live cluster was queried.
+
+Now request a description of web.
+Naming the Pod focuses the inspection; describe retrieves details, including its containers and images.
+The image field identifies the software package used for that container.
+The cluster and namespace stay the same.
+The changed request produces more focused information.
+
+Use get for summaries, describe for resource details, and logs for a container's log output.
+Interpret these Pod results within the selected cluster and namespace.
+Listing and describing read information without changing resource configuration.
+Other kubectl operations can make changes.

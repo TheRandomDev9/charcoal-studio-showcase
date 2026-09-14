@@ -1,0 +1,65 @@
+{
+  "title": "From kubectl Command to Cluster Information",
+  "reviewPreview": true,
+  "releaseReady": false,
+  "automatedTeachingStatus": "ready",
+  "automatedChecks": [
+    {
+      "check": "schema",
+      "status": "pass"
+    },
+    {
+      "check": "engine",
+      "status": "pass"
+    },
+    {
+      "check": "facts",
+      "status": "pass"
+    },
+    {
+      "check": "script_visual",
+      "status": "pass"
+    },
+    {
+      "check": "audio",
+      "status": "pass"
+    },
+    {
+      "check": "alignment",
+      "status": "pass"
+    },
+    {
+      "check": "visual",
+      "status": "pass"
+    },
+    {
+      "check": "media",
+      "status": "pass"
+    },
+    {
+      "check": "rights",
+      "status": "not_applicable"
+    },
+    {
+      "check": "editorial",
+      "status": "missing"
+    }
+  ],
+  "sourceMovieSha256": "7cfa7194a42f8c2a63f8ec378eb5d8d7fc6e4ffe5e802d5d1fd831502fa4dacf",
+  "galleryMovieSha256": "6dca282258905be10b350ed554a03efc5edfc0c3deadaaa4f8702965fc41c519",
+  "durationSeconds": 155.433008,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "firstPass": false,
+  "pronunciationRebuild": false,
+  "retainedAudioRebuild": true,
+  "manuscriptUnchanged": true,
+  "storySHA256": "926254c67c1aafc8385af8357f2878cde20592221b829a0fbc574eb67695935c",
+  "engineDeployment": "deploy-20260914-160631",
+  "limitations": [
+    "Rebuilt from a retained story; not a first-pass production benchmark.",
+    "Owner listening and editorial publication approval remain outstanding."
+  ]
+}

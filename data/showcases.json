@@ -1,73 +1,53 @@
 {
-  "collection": "Pronunciation corrections — review videos",
+  "collection": "Connector readability \u00b7 kubectl",
   "films": [
-    {
-      "slug": "temperature",
-      "title": "How temperature shapes an LLM’s choices",
-      "durationSeconds": 140.766016,
-      "duration": "2:21",
-      "video": "videos/pronunciation-20260914/temperature.mp4?v=9ecd8a61acfb",
-      "poster": "posters/pronunciation-20260914/temperature.jpg",
-      "transcript": "transcripts/pronunciation-20260914/temperature.txt",
-      "provenance": "provenance/pronunciation-20260914/temperature.json",
-      "status": "preview",
-      "releaseReady": false,
-      "promise": "Technical pronunciation refreshed; narration and visuals synchronized. Same script, ready for your listening review.",
-      "sha256": "9ecd8a61acfbd21c8d06f60a651fe13373b9f4edce239c2ca21e20b8b560586e"
-    },
-    {
-      "slug": "flutter-install",
-      "title": "Install Flutter on an Apple Silicon Mac",
-      "durationSeconds": 156.0,
-      "duration": "2:36",
-      "video": "videos/pronunciation-20260914/flutter-install.mp4?v=6ed8736931b5",
-      "poster": "posters/pronunciation-20260914/flutter-install.jpg",
-      "transcript": "transcripts/pronunciation-20260914/flutter-install.txt",
-      "provenance": "provenance/pronunciation-20260914/flutter-install.json",
-      "status": "preview",
-      "releaseReady": false,
-      "promise": "Technical pronunciation refreshed; narration and visuals synchronized. Same script, ready for your listening review.",
-      "sha256": "6ed8736931b52956d80f67dc9282c77c2196898a600852657b302635cf9e989d"
-    },
-    {
-      "slug": "mcp",
-      "title": "What MCP connects and what it standardizes",
-      "durationSeconds": 146.4,
-      "duration": "2:26",
-      "video": "videos/pronunciation-20260914/mcp.mp4?v=f0e9997c47e5",
-      "poster": "posters/pronunciation-20260914/mcp.jpg",
-      "transcript": "transcripts/pronunciation-20260914/mcp.txt",
-      "provenance": "provenance/pronunciation-20260914/mcp.json",
-      "status": "preview",
-      "releaseReady": false,
-      "promise": "Technical pronunciation refreshed; narration and visuals synchronized. Same script, ready for your listening review.",
-      "sha256": "f0e9997c47e5b78d70b680df7bff7bda567b1aa8beca816300d3870093dda3ab"
-    },
     {
       "slug": "kubectl",
       "title": "What kubectl does",
       "durationSeconds": 155.433008,
       "duration": "2:35",
-      "video": "videos/pronunciation-20260914/kubectl.mp4?v=a65d084421bb",
-      "poster": "posters/pronunciation-20260914/kubectl.jpg",
-      "transcript": "transcripts/pronunciation-20260914/kubectl.txt",
-      "provenance": "provenance/pronunciation-20260914/kubectl.json",
+      "video": "videos/connectors-20260914/kubectl.mp4?v=6dca28225890",
+      "poster": "posters/connectors-20260914/kubectl.jpg",
+      "transcript": "transcripts/connectors-20260914/kubectl.txt",
+      "provenance": "provenance/connectors-20260914/kubectl.json",
       "status": "preview",
       "releaseReady": false,
-      "promise": "Technical pronunciation refreshed; narration and visuals synchronized. Same script, ready for your listening review.",
-      "sha256": "a65d084421bb85a6284b9d42d1f796cc8d6fdc9d0778ffc8ecf672fe31d303b7"
+      "promise": "Clearer hierarchy branches, visible request/response arrows, and readable namespace evidence. Existing corrected narration retained.",
+      "sha256": "6dca282258905be10b350ed554a03efc5edfc0c3deadaaa4f8702965fc41c519"
     }
   ],
   "collections": [
     {
+      "id": "connectors-20260914",
+      "title": "Connector readability \u00b7 kubectl",
+      "description": "Review the revised connectors against the earlier pronunciation collection.",
+      "sourceCommit": "f53f436",
+      "films": [
+        {
+          "slug": "kubectl",
+          "title": "What kubectl does",
+          "durationSeconds": 155.433008,
+          "duration": "2:35",
+          "video": "videos/connectors-20260914/kubectl.mp4?v=6dca28225890",
+          "poster": "posters/connectors-20260914/kubectl.jpg",
+          "transcript": "transcripts/connectors-20260914/kubectl.txt",
+          "provenance": "provenance/connectors-20260914/kubectl.json",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Clearer hierarchy branches, visible request/response arrows, and readable namespace evidence. Existing corrected narration retained.",
+          "sha256": "6dca282258905be10b350ed554a03efc5edfc0c3deadaaa4f8702965fc41c519"
+        }
+      ]
+    },
+    {
       "id": "pronunciation-20260914",
-      "title": "Pronunciation corrections — review videos",
+      "title": "Pronunciation corrections \u2014 review videos",
       "description": "The same scripts with refreshed narration and synchronized visuals. All automated checks passed; awaiting your listening and editorial review. Earlier versions remain available for comparison.",
       "sourceCommit": "35d8d0f",
       "films": [
         {
           "slug": "temperature",
-          "title": "How temperature shapes an LLM’s choices",
+          "title": "How temperature shapes an LLM\u2019s choices",
           "durationSeconds": 140.766016,
           "duration": "2:21",
           "video": "videos/pronunciation-20260914/temperature.mp4?v=9ecd8a61acfb",
@@ -125,13 +105,13 @@
     },
     {
       "id": "topic-directed-20260914",
-      "title": "Topic-directed engine — review showcase",
+      "title": "Topic-directed engine \u2014 review showcase",
       "description": "Subject-specific visuals with narration. These recovered builds passed automated teaching and media checks; first-pass quality and generation-time targets remain unproven. Awaiting editorial approval.",
       "sourceCommit": "8fe53ba",
       "films": [
         {
           "slug": "temperature",
-          "title": "How temperature shapes an LLM’s choices",
+          "title": "How temperature shapes an LLM\u2019s choices",
           "durationSeconds": 140.766016,
           "duration": "2:21",
           "video": "videos/topic-directed-20260914/temperature.mp4?v=80df3e9c09e5",
@@ -189,7 +169,7 @@
     },
     {
       "id": "four-topics-review",
-      "title": "Four topics — finished review batch",
+      "title": "Four topics \u2014 finished review batch",
       "description": "Tokenizer, MCP, React state, and API gateway. All automated teaching, visual, pronunciation and media checks passed. Ready for your editorial review; not approved for social publication.",
       "films": [
         {
@@ -256,8 +236,8 @@
     },
     {
       "id": "api-pronunciation",
-      "title": "API Gateway — pronunciation corrected",
-      "description": "API is articulated as A–P–I. Regenerated narration, verified audio, and all automated teaching and media checks passed. Awaiting owner review.",
+      "title": "API Gateway \u2014 pronunciation corrected",
+      "description": "API is articulated as A\u2013P\u2013I. Regenerated narration, verified audio, and all automated teaching and media checks passed. Awaiting owner review.",
       "sourceCommit": "7248c0c",
       "films": [
         {
@@ -285,7 +265,7 @@
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance — redesigned order page",
+          "title": "API Gateway: One Entrance \u2014 redesigned order page",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "A real order summary replaces the prose form. Order details and live delivery status populate from their respective responses and remain visible in the recap. Same narration. Review preview; full release review remains pending.",
@@ -301,13 +281,13 @@
     },
     {
       "id": "request-copy-fix",
-      "title": "Shopping app — request wording corrected",
+      "title": "Shopping app \u2014 request wording corrected",
       "description": "The request explicitly includes live delivery status. Same narration as the previous previews.",
       "sourceCommit": "eb4e8b7",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance — request wording fix",
+          "title": "API Gateway: One Entrance \u2014 request wording fix",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "The order request explicitly says live delivery status. Same narration, with persistent exchange status, premium visuals and connector fixes. Review preview; full release review remains pending.",
@@ -323,13 +303,13 @@
     },
     {
       "id": "live-status-fix",
-      "title": "Shopping app — visible live state",
+      "title": "Shopping app \u2014 visible live state",
       "description": "Persistent exchange status inside the diagram boxes. Same narration as the previous previews.",
       "sourceCommit": "eb4e8b7",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance — live state fix",
+          "title": "API Gateway: One Entrance \u2014 live state fix",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "The Shopping app now retains its actual exchange status before, during and after requests. Same script and narration, with the premium visuals and connector fixes. Review preview; full release review remains pending.",
@@ -351,7 +331,7 @@
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance — connector upgrade",
+          "title": "API Gateway: One Entrance \u2014 connector upgrade",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "Premium visuals with direction-aware connectors: outward requests, returning responses and two-way links where declared. Same script and narration. Review preview; full release review remains pending.",
@@ -367,13 +347,13 @@
     },
     {
       "id": "premium-visuals",
-      "title": "Visual upgrade — same narration",
+      "title": "Visual upgrade \u2014 same narration",
       "description": "Shared engine upgrade. Compare with the previous fixes preview using the collection selector.",
       "sourceCommit": "32528d0",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance — visual upgrade",
+          "title": "API Gateway: One Entrance \u2014 visual upgrade",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "Same story and narration, upgraded visual system: role symbols, cleaner diagrams, product-style results and a polished recap. Review preview; full release review remains pending.",
@@ -389,13 +369,13 @@
     },
     {
       "id": "fixes-preview",
-      "title": "Latest fixes — review preview",
+      "title": "Latest fixes \u2014 review preview",
       "description": "One new preview. Full production release review remains pending. Older videos are in the comparison collection.",
       "sourceCommit": "6d5c811",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance — review preview",
+          "title": "API Gateway: One Entrance \u2014 review preview",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "Follow an order-summary request from separate service calls to an API gateway. Preview of the corrected narration and visuals; full production release review is still pending.",
