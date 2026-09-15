@@ -1,36 +1,72 @@
 {
-  "collection": "Readable timing and device cards",
+  "collection": "Clear points and hierarchy arrows",
   "films": [
     {
       "slug": "temperature",
-      "title": "How temperature shapes an LLM\u2019s choices",
+      "title": "How temperature shapes an LLM’s choices",
       "durationSeconds": 140.766016,
       "duration": "2:21",
-      "video": "videos/visual-quality-20260914/temperature.mp4?v=0052dce57329",
-      "poster": "posters/visual-quality-20260914/temperature.jpg",
-      "transcript": "transcripts/visual-quality-20260914/temperature.txt",
-      "provenance": "provenance/visual-quality-20260914/temperature.json",
+      "video": "videos/final-readability-20260914/temperature.mp4?v=479fb0f64f3d",
+      "poster": "posters/final-readability-20260914/temperature.jpg",
+      "transcript": "transcripts/final-readability-20260914/temperature.txt",
+      "provenance": "provenance/final-readability-20260914/temperature.json",
       "status": "preview",
       "releaseReady": false,
-      "promise": "Breakfast probabilities stay visible through their explanation; the knob arrives in its own chapter.",
-      "sha256": "0052dce57329f14e28e5c9b04af2c8a9375fc619ed65c81f58f4c653a520e65b"
+      "promise": "Separated bullet points make the probability explanation easy to scan.",
+      "sha256": "479fb0f64f3d37dec98e636776925469990a4f062430b1b2e3f3eefe5efd4e01"
     },
     {
       "slug": "kubectl",
       "title": "What kubectl does",
       "durationSeconds": 155.433008,
       "duration": "2:35",
-      "video": "videos/visual-quality-20260914/kubectl.mp4?v=7e1043caeccf",
-      "poster": "posters/visual-quality-20260914/kubectl.jpg",
-      "transcript": "transcripts/visual-quality-20260914/kubectl.txt",
-      "provenance": "provenance/visual-quality-20260914/kubectl.json",
+      "video": "videos/final-readability-20260914/kubectl.mp4?v=03855f3b855b",
+      "poster": "posters/final-readability-20260914/kubectl.jpg",
+      "transcript": "transcripts/final-readability-20260914/kubectl.txt",
+      "provenance": "provenance/final-readability-20260914/kubectl.json",
       "status": "preview",
       "releaseReady": false,
-      "promise": "Larger device illustrations, tighter cards, clearer connector arrows, and readable namespace evidence.",
-      "sha256": "7e1043caeccf8772b4c3acfa41eadc2655cab0d09ec1d60fd42143c23d216164"
+      "promise": "Hierarchy connectors have clear arrowheads and breathing room between levels.",
+      "sha256": "03855f3b855b4e7752feeff7d0582ba5fb77a0f4f085a973039aa4072da84533"
     }
   ],
   "collections": [
+    {
+      "id": "final-readability-20260914",
+      "title": "Clear points and hierarchy arrows",
+      "description": "Readable teaching notes and hierarchy connector clearance, with narration preserved.",
+      "sourceCommit": "67babff",
+      "films": [
+        {
+          "slug": "temperature",
+          "title": "How temperature shapes an LLM’s choices",
+          "durationSeconds": 140.766016,
+          "duration": "2:21",
+          "video": "videos/final-readability-20260914/temperature.mp4?v=479fb0f64f3d",
+          "poster": "posters/final-readability-20260914/temperature.jpg",
+          "transcript": "transcripts/final-readability-20260914/temperature.txt",
+          "provenance": "provenance/final-readability-20260914/temperature.json",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Separated bullet points make the probability explanation easy to scan.",
+          "sha256": "479fb0f64f3d37dec98e636776925469990a4f062430b1b2e3f3eefe5efd4e01"
+        },
+        {
+          "slug": "kubectl",
+          "title": "What kubectl does",
+          "durationSeconds": 155.433008,
+          "duration": "2:35",
+          "video": "videos/final-readability-20260914/kubectl.mp4?v=03855f3b855b",
+          "poster": "posters/final-readability-20260914/kubectl.jpg",
+          "transcript": "transcripts/final-readability-20260914/kubectl.txt",
+          "provenance": "provenance/final-readability-20260914/kubectl.json",
+          "status": "preview",
+          "releaseReady": false,
+          "promise": "Hierarchy connectors have clear arrowheads and breathing room between levels.",
+          "sha256": "03855f3b855b4e7752feeff7d0582ba5fb77a0f4f085a973039aa4072da84533"
+        }
+      ]
+    },
     {
       "id": "visual-quality-20260914",
       "title": "Readable timing and device cards",
@@ -39,7 +75,7 @@
       "films": [
         {
           "slug": "temperature",
-          "title": "How temperature shapes an LLM\u2019s choices",
+          "title": "How temperature shapes an LLM’s choices",
           "durationSeconds": 140.766016,
           "duration": "2:21",
           "video": "videos/visual-quality-20260914/temperature.mp4?v=0052dce57329",
@@ -69,7 +105,7 @@
     },
     {
       "id": "connectors-20260914",
-      "title": "Connector readability \u00b7 kubectl",
+      "title": "Connector readability · kubectl",
       "description": "Review the revised connectors against the earlier pronunciation collection.",
       "sourceCommit": "f53f436",
       "films": [
@@ -91,13 +127,13 @@
     },
     {
       "id": "pronunciation-20260914",
-      "title": "Pronunciation corrections \u2014 review videos",
+      "title": "Pronunciation corrections — review videos",
       "description": "The same scripts with refreshed narration and synchronized visuals. All automated checks passed; awaiting your listening and editorial review. Earlier versions remain available for comparison.",
       "sourceCommit": "35d8d0f",
       "films": [
         {
           "slug": "temperature",
-          "title": "How temperature shapes an LLM\u2019s choices",
+          "title": "How temperature shapes an LLM’s choices",
           "durationSeconds": 140.766016,
           "duration": "2:21",
           "video": "videos/pronunciation-20260914/temperature.mp4?v=9ecd8a61acfb",
@@ -155,13 +191,13 @@
     },
     {
       "id": "topic-directed-20260914",
-      "title": "Topic-directed engine \u2014 review showcase",
+      "title": "Topic-directed engine — review showcase",
       "description": "Subject-specific visuals with narration. These recovered builds passed automated teaching and media checks; first-pass quality and generation-time targets remain unproven. Awaiting editorial approval.",
       "sourceCommit": "8fe53ba",
       "films": [
         {
           "slug": "temperature",
-          "title": "How temperature shapes an LLM\u2019s choices",
+          "title": "How temperature shapes an LLM’s choices",
           "durationSeconds": 140.766016,
           "duration": "2:21",
           "video": "videos/topic-directed-20260914/temperature.mp4?v=80df3e9c09e5",
@@ -219,7 +255,7 @@
     },
     {
       "id": "four-topics-review",
-      "title": "Four topics \u2014 finished review batch",
+      "title": "Four topics — finished review batch",
       "description": "Tokenizer, MCP, React state, and API gateway. All automated teaching, visual, pronunciation and media checks passed. Ready for your editorial review; not approved for social publication.",
       "films": [
         {
@@ -286,8 +322,8 @@
     },
     {
       "id": "api-pronunciation",
-      "title": "API Gateway \u2014 pronunciation corrected",
-      "description": "API is articulated as A\u2013P\u2013I. Regenerated narration, verified audio, and all automated teaching and media checks passed. Awaiting owner review.",
+      "title": "API Gateway — pronunciation corrected",
+      "description": "API is articulated as A–P–I. Regenerated narration, verified audio, and all automated teaching and media checks passed. Awaiting owner review.",
       "sourceCommit": "7248c0c",
       "films": [
         {
@@ -315,7 +351,7 @@
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance \u2014 redesigned order page",
+          "title": "API Gateway: One Entrance — redesigned order page",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "A real order summary replaces the prose form. Order details and live delivery status populate from their respective responses and remain visible in the recap. Same narration. Review preview; full release review remains pending.",
@@ -331,13 +367,13 @@
     },
     {
       "id": "request-copy-fix",
-      "title": "Shopping app \u2014 request wording corrected",
+      "title": "Shopping app — request wording corrected",
       "description": "The request explicitly includes live delivery status. Same narration as the previous previews.",
       "sourceCommit": "eb4e8b7",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance \u2014 request wording fix",
+          "title": "API Gateway: One Entrance — request wording fix",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "The order request explicitly says live delivery status. Same narration, with persistent exchange status, premium visuals and connector fixes. Review preview; full release review remains pending.",
@@ -353,13 +389,13 @@
     },
     {
       "id": "live-status-fix",
-      "title": "Shopping app \u2014 visible live state",
+      "title": "Shopping app — visible live state",
       "description": "Persistent exchange status inside the diagram boxes. Same narration as the previous previews.",
       "sourceCommit": "eb4e8b7",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance \u2014 live state fix",
+          "title": "API Gateway: One Entrance — live state fix",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "The Shopping app now retains its actual exchange status before, during and after requests. Same script and narration, with the premium visuals and connector fixes. Review preview; full release review remains pending.",
@@ -381,7 +417,7 @@
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance \u2014 connector upgrade",
+          "title": "API Gateway: One Entrance — connector upgrade",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "Premium visuals with direction-aware connectors: outward requests, returning responses and two-way links where declared. Same script and narration. Review preview; full release review remains pending.",
@@ -397,13 +433,13 @@
     },
     {
       "id": "premium-visuals",
-      "title": "Visual upgrade \u2014 same narration",
+      "title": "Visual upgrade — same narration",
       "description": "Shared engine upgrade. Compare with the previous fixes preview using the collection selector.",
       "sourceCommit": "32528d0",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance \u2014 visual upgrade",
+          "title": "API Gateway: One Entrance — visual upgrade",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "Same story and narration, upgraded visual system: role symbols, cleaner diagrams, product-style results and a polished recap. Review preview; full release review remains pending.",
@@ -419,13 +455,13 @@
     },
     {
       "id": "fixes-preview",
-      "title": "Latest fixes \u2014 review preview",
+      "title": "Latest fixes — review preview",
       "description": "One new preview. Full production release review remains pending. Older videos are in the comparison collection.",
       "sourceCommit": "6d5c811",
       "films": [
         {
           "slug": "api-gateway",
-          "title": "API Gateway: One Entrance \u2014 review preview",
+          "title": "API Gateway: One Entrance — review preview",
           "duration": "2:34",
           "durationSeconds": 154.066667,
           "promise": "Follow an order-summary request from separate service calls to an API gateway. Preview of the corrected narration and visuals; full production release review is still pending.",
